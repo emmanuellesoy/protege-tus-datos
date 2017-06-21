@@ -1,0 +1,895 @@
+[12-Oct-2015 11:40:49 UTC] PHP Fatal error:  Call to undefined function dd_filter() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 30
+[18-Oct-2015 23:16:50 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules../libs/Facebook/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[18-Oct-2015 23:16:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules../libs/Facebook/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[18-Oct-2015 23:56:38 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php(11): Facebook\Facebook->getRedirectLoginHelper()
+#3 /home/shannonbit/public_html/cisocial.org. in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[18-Oct-2015 23:59:06 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[18-Oct-2015 23:59:06 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[18-Oct-2015 23:59:48 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[18-Oct-2015 23:59:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[19-Oct-2015 00:00:31 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 3
+[19-Oct-2015 00:00:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 3
+[19-Oct-2015 00:01:15 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:01:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:02:50 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:02:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:02:52 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:02:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:03:19 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:03:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php:35) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/functions.php on line 47
+[19-Oct-2015 00:03:42 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php(11): Facebook\Facebook->getRedirectLoginHelper()
+#3 /home/shannonbit/public_html/cisocial.org. in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[19-Oct-2015 00:07:54 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php(11): Facebook\Facebook->getRedirectLoginHelper()
+#3 /home/shannonbit/public_html/cisocial.org. in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[21-Oct-2015 05:50:05 UTC] PHP Parse error:  syntax error, unexpected '$fb' (T_VARIABLE), expecting function (T_FUNCTION) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 4
+[21-Oct-2015 05:59:32 UTC] PHP Fatal error:  Cannot access empty property in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 17
+[21-Oct-2015 06:01:34 UTC] PHP Fatal error:  Cannot access empty property in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 17
+[21-Oct-2015 06:02:24 UTC] PHP Fatal error:  Cannot access empty property in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 17
+[21-Oct-2015 06:02:38 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 17
+[21-Oct-2015 06:02:40 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 17
+[21-Oct-2015 06:03:29 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 17
+[21-Oct-2015 06:03:40 UTC] PHP Fatal error:  Call to a member function getLoginUrl() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 19
+[21-Oct-2015 06:04:00 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 16
+[21-Oct-2015 06:04:18 UTC] PHP Fatal error:  Cannot access empty property in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 16
+[21-Oct-2015 06:04:24 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 16
+[21-Oct-2015 06:04:34 UTC] PHP Fatal error:  Cannot access empty property in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 16
+[21-Oct-2015 06:05:25 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 16
+[21-Oct-2015 06:19:25 UTC] PHP Fatal error:  Call to private method FacebookConnect::saveConnectCode() from context '' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 13
+[21-Oct-2015 06:19:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[25-Oct-2015 06:36:56 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 42
+[25-Oct-2015 06:38:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[25-Oct-2015 06:45:06 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 13
+[25-Oct-2015 06:56:33 UTC] PHP Fatal error:  Call to a member function getAccessToken() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 30
+[25-Oct-2015 06:56:53 UTC] PHP Fatal error:  Call to a member function getAccessToken() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 30
+[25-Oct-2015 06:57:41 UTC] PHP Catchable fatal error:  Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 28
+[25-Oct-2015 06:58:38 UTC] PHP Fatal error:  Call to a member function getLoginUrl() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 29
+[25-Oct-2015 06:58:48 UTC] PHP Fatal error:  Call to a member function getLoginUrl() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 29
+[25-Oct-2015 07:24:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 6
+[25-Oct-2015 07:24:53 UTC] PHP Warning:  include_once(modules/simple_facebook.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:24:53 UTC] PHP Warning:  include_once(): Failed opening 'modules/simple_facebook.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:24:53 UTC] PHP Fatal error:  Class 'SimpleFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 9
+[25-Oct-2015 07:25:09 UTC] PHP Warning:  include_once(simple_facebook.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:25:09 UTC] PHP Warning:  include_once(): Failed opening 'simple_facebook.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:25:09 UTC] PHP Fatal error:  Class 'SimpleFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 9
+[25-Oct-2015 07:25:21 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, null given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 9 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/simple_facebook.php on line 82
+[25-Oct-2015 07:26:06 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, null given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 10 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/simple_facebook.php on line 82
+[25-Oct-2015 07:26:58 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, null given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 10 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/simple_facebook.php on line 82
+[25-Oct-2015 07:28:19 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 4
+[25-Oct-2015 07:29:07 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:29:08 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:31:25 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/simple_facebook.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:31:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/simple_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:32:09 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 4
+[25-Oct-2015 07:33:53 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/FACEBOOK/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:33:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/FACEBOOK/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:34:10 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, instance of Facebook\Facebook given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 13 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/simple_facebook.php on line 82
+[25-Oct-2015 07:34:26 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, instance of Facebook\Facebook given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 13 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/simple_facebook.php on line 82
+[25-Oct-2015 07:34:55 UTC] PHP Fatal error:  Class 'BaseFacebook\Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:35:08 UTC] PHP Fatal error:  Class 'Facebook\BaseFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:35:14 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, instance of Facebook\Facebook given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 13 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/simple_facebook.php on line 82
+[25-Oct-2015 07:36:07 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:36:13 UTC] PHP Catchable fatal error:  Argument 1 passed to SimpleFacebook::__construct() must be an instance of BaseFacebook, instance of Facebook\Facebook given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 13 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/simple_facebook.php on line 82
+[25-Oct-2015 07:38:30 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/facebook.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:38:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 2
+[25-Oct-2015 07:38:47 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:38:55 UTC] PHP Fatal error:  Class 'BaseFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 07:38:57 UTC] PHP Fatal error:  Class 'BaseFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 15:48:37 UTC] PHP Fatal error:  Class 'BaseFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 15:49:46 UTC] PHP Fatal error:  Class 'BaseFacebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 5
+[25-Oct-2015 15:49:55 UTC] PHP Fatal error:  Call to a member function getLoginButton() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 10
+[25-Oct-2015 15:56:47 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::getLoginButton() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 12
+[25-Oct-2015 15:57:16 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::getLoginButton() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 12
+[25-Oct-2015 15:57:34 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::getLoginButton() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 12
+[25-Oct-2015 15:58:08 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::getLoginButton() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 12
+[25-Oct-2015 15:58:50 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[25-Oct-2015 16:00:36 UTC] PHP Fatal error:  Call to a member function getLoginButton() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/index.php on line 8
+[25-Oct-2015 16:03:40 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 47
+[25-Oct-2015 16:09:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php on line 19
+[25-Oct-2015 16:13:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[25-Oct-2015 16:13:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/header.php:2) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[25-Oct-2015 16:33:58 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::getFacebookToken() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 4
+[25-Oct-2015 16:40:21 UTC] PHP Fatal error:  Method name must be a string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 25
+[25-Oct-2015 16:40:35 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::facegetFacebookMe() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 25
+[25-Oct-2015 16:41:06 UTC] PHP Fatal error:  Call to undefined function getFacebookAccessToken() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 77
+[25-Oct-2015 19:26:37 UTC] PHP Fatal error:  Function name must be a string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 97
+[25-Oct-2015 19:34:12 UTC] PHP Fatal error:  Class 'FacebookRequest' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 115
+[25-Oct-2015 19:41:34 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 253
+[25-Oct-2015 19:51:17 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 95
+[25-Oct-2015 22:14:56 UTC] PHP Parse error:  syntax error, unexpected 'setUserData' (T_STRING), expecting variable (T_VARIABLE) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 122
+[25-Oct-2015 22:22:21 UTC] PHP Fatal error:  Cannot access empty property in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 27
+[25-Oct-2015 22:24:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 32
+[25-Oct-2015 22:24:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 36
+[25-Oct-2015 22:24:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 36
+[25-Oct-2015 22:27:39 UTC] PHP Fatal error:  Call to undefined function getFacebookAccessToken() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 36
+[26-Oct-2015 00:22:07 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:23:08 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:24:08 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:24:24 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:24:32 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:25:09 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:25:19 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 31
+[26-Oct-2015 00:26:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:116) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[26-Oct-2015 00:28:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:116) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[26-Oct-2015 02:38:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 129
+[26-Oct-2015 02:41:31 UTC] PHP Fatal error:  Cannot redeclare FacebookConnect::getLastSchoolName() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 133
+[26-Oct-2015 06:14:36 UTC] PHP Fatal error:  Class 'FacebookRequest' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 142
+[26-Oct-2015 06:15:11 UTC] PHP Fatal error:  Class 'FacebookRequest' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 142
+[26-Oct-2015 06:15:47 UTC] PHP Fatal error:  Class 'FacebookRequest' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 143
+[26-Oct-2015 06:17:01 UTC] PHP Fatal error:  Class 'FacebookRequest' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 143
+[26-Oct-2015 06:17:18 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 143
+[26-Oct-2015 06:19:23 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Unable to convert response from Graph to a GraphNode because the response looks like a GraphEdge. Try using GraphNodeFactory::makeGraphEdge() instead.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php:224
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(93): Facebook\GraphNodes\GraphNodeFactory->validateResponseCastableAsGraphNode()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(155): Facebook\GraphNodes\GraphNodeFactory->makeGraphNode('\\Facebook\\Graph...')
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(345): Facebook\GraphNodes\GraphNodeFactory->makeGraphUser()
+#3 /home/shanno in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php on line 224
+[26-Oct-2015 06:23:10 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Unable to convert response from Graph to a GraphEdge because the response does not look like a GraphEdge. Try using GraphNodeFactory::makeGraphNode() instead.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php:239
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(195): Facebook\GraphNodes\GraphNodeFactory->validateResponseCastableAsGraphEdge()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(408): Facebook\GraphNodes\GraphNodeFactory->makeGraphEdge(NULL, true)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php(144): Facebook\FacebookResponse->getGraphEdge()
+#3 /home/shannonbit/public_html/cisocial.org.mx/protege in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php on line 239
+[26-Oct-2015 06:25:10 UTC] PHP Fatal error:  Class 'FacebookRequest' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 142
+[26-Oct-2015 06:26:13 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 142
+[26-Oct-2015 06:26:40 UTC] PHP Fatal error:  Class 'Facebook\Request' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 142
+[26-Oct-2015 06:28:03 UTC] PHP Fatal error:  Class 'Facebook\Request' not found in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 144
+[26-Oct-2015 06:28:54 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookRequest::execute() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 149
+[26-Oct-2015 06:29:16 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookRequest::execute() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 149
+[26-Oct-2015 06:33:03 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookRequest::getGraphEdge() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 152
+[26-Oct-2015 06:33:26 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookRequest::getGraphObject() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 152
+[26-Oct-2015 06:33:43 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookRequest::get() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 152
+[26-Oct-2015 06:34:21 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookRequest::get() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 152
+[26-Oct-2015 06:35:58 UTC] PHP Catchable fatal error:  Argument 1 passed to Facebook\FacebookRequest::__construct() must be an instance of Facebook\FacebookApp, instance of Facebook\Facebook given, called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 147 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookRequest.php on line 97
+[26-Oct-2015 06:38:25 UTC] PHP Fatal error:  Call to a member function getClient() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 153
+[26-Oct-2015 06:39:18 UTC] PHP Fatal error:  Call to a member function getSecret() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookRequest.php on line 197
+[26-Oct-2015 06:39:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:118) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[26-Oct-2015 06:40:44 UTC] PHP Fatal error:  Call to a member function getSecret() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookRequest.php on line 197
+[26-Oct-2015 06:44:27 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Unable to convert response from Graph to a GraphNode because the response looks like a GraphEdge. Try using GraphNodeFactory::makeGraphEdge() instead.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php:224
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(93): Facebook\GraphNodes\GraphNodeFactory->validateResponseCastableAsGraphNode()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(289): Facebook\GraphNodes\GraphNodeFactory->makeGraphNode(NULL)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php(159): Facebook\FacebookResponse->getGraphNode()
+#3 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-con in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php on line 224
+[26-Oct-2015 06:46:52 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Unable to convert response from Graph to a GraphNode because the response looks like a GraphEdge. Try using GraphNodeFactory::makeGraphEdge() instead.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php:224
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(93): Facebook\GraphNodes\GraphNodeFactory->validateResponseCastableAsGraphNode()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(289): Facebook\GraphNodes\GraphNodeFactory->makeGraphNode(NULL)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(273): Facebook\FacebookResponse->getGraphNode(NULL)
+#3 /home/shannonbit/public_html/cisocial.org.mx/prot in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php on line 224
+[26-Oct-2015 06:47:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 193
+[26-Oct-2015 13:41:10 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Unable to convert response from Graph to a GraphEdge because the response does not look like a GraphEdge. Try using GraphNodeFactory::makeGraphNode() instead.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php:239
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(195): Facebook\GraphNodes\GraphNodeFactory->validateResponseCastableAsGraphEdge()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(408): Facebook\GraphNodes\GraphNodeFactory->makeGraphEdge(NULL, true)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php(243): Facebook\FacebookResponse->getGraphEdge()
+#3 /home/shannonbit/public_html/cisocial.org.mx/protege in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php on line 239
+[27-Oct-2015 00:56:47 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:56:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:57:25 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:57:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:58:17 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:58:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:58:32 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:58:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:59:22 UTC] PHP Warning:  require_once(/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php): failed to open stream: No such file or directory in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 00:59:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/../libs/Facebook/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 35
+[27-Oct-2015 06:29:51 UTC] PHP Fatal error:  Cannot redeclare FacebookConnect::$user_cover in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 22
+[27-Oct-2015 06:30:31 UTC] PHP Fatal error:  Cannot redeclare FacebookConnect::setUserCover() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[31-Oct-2015 17:07:47 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[31-Oct-2015 17:07:53 UTC] PHP Fatal error:  Call to undefined method Facebook\GraphNodes\GraphNode::getName() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[31-Oct-2015 17:09:45 UTC] PHP Fatal error:  Cannot access protected property Facebook\GraphNodes\GraphNode::$items in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[31-Oct-2015 17:14:11 UTC] PHP Fatal error:  Call to undefined method Facebook\GraphNodes\GraphNode::getGraphObject() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[31-Oct-2015 17:14:27 UTC] PHP Fatal error:  Call to undefined method Facebook\GraphNodes\GraphNode::getGraphNode() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[31-Oct-2015 17:18:25 UTC] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 71
+[31-Oct-2015 17:26:49 UTC] PHP Parse error:  syntax error, unexpected 'try' (T_TRY), expecting ';' or '{' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 128
+[31-Oct-2015 17:27:16 UTC] PHP Fatal error:  Call to private method FacebookConnect::getPicture() from context '' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[31-Oct-2015 17:28:07 UTC] PHP Fatal error:  Call to private method FacebookConnect::getUserPicture() from context '' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 69
+[09-Nov-2015 03:40:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 184
+[09-Nov-2015 03:41:34 UTC] PHP Catchable fatal error:  Object of class FacebookConnect could not be converted to string in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 73
+[09-Nov-2015 04:36:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 212
+[09-Nov-2015 05:38:22 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Unable to convert response from Graph to a GraphNode because the response looks like a GraphEdge. Try using GraphNodeFactory::makeGraphEdge() instead.' in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php:224
+Stack trace:
+#0 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php(93): Facebook\GraphNodes\GraphNodeFactory->validateResponseCastableAsGraphNode()
+#1 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(289): Facebook\GraphNodes\GraphNodeFactory->makeGraphNode(NULL)
+#2 /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/FacebookResponse.php(273): Facebook\FacebookResponse->getGraphNode(NULL)
+#3 /home/shannonbit/public_html/cisocial.org.mx/prot in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/libs/Facebook/GraphNodes/GraphNodeFactory.php on line 224
+[09-Nov-2015 06:47:15 UTC] PHP Fatal error:  Call to undefined method Facebook\GraphNodes\GraphNode::getGraphNode() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 58
+[09-Nov-2015 06:48:15 UTC] PHP Fatal error:  Cannot access protected property Facebook\GraphNodes\GraphNode::$items in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-mide-el-riesgo.php on line 58
+[09-Nov-2015 07:37:53 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 339
+[09-Nov-2015 07:43:38 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::user_points() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-termometro.php on line 19
+[09-Nov-2015 07:43:57 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::user_points() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-termometro.php on line 19
+[09-Nov-2015 07:44:14 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::user_points() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-termometro.php on line 19
+[09-Nov-2015 07:44:20 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::user_points() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-termometro.php on line 19
+[09-Nov-2015 07:48:43 UTC] PHP Fatal error:  Can't use method return value in write context in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 341
+[09-Nov-2015 07:49:46 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::user_points() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-termometro.php on line 19
+[09-Nov-2015 07:50:13 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::user_points() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/page-termometro.php on line 19
+[09-Nov-2015 07:50:48 UTC] PHP Warning:  Missing argument 1 for FacebookConnect::getUserTaggedPlaces(), called in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 340 and defined in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 181
+[10-Nov-2015 03:51:14 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 03:55:36 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 04:09:17 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 04:37:18 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 14:52:00 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 15:03:43 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 15:41:55 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 15:50:20 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 15:50:28 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 15:57:27 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 15:57:46 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 16:22:16 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 16:22:29 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 16:29:50 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 18:49:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 18:49:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 19:05:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 19:05:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 19:05:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 19:05:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 19:06:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 19:06:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[10-Nov-2015 21:07:55 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 21:08:15 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 21:27:24 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[10-Nov-2015 23:21:48 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[11-Nov-2015 19:27:47 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[11-Nov-2015 19:30:58 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[11-Nov-2015 19:32:27 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 18:57:32 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 18:57:45 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 19:18:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[12-Nov-2015 19:18:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[12-Nov-2015 19:27:33 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 19:29:30 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 19:30:25 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:47:29 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:47:38 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:47:45 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:48:02 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:50:04 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:52:10 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:52:24 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:54:36 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:54:56 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:55:09 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[12-Nov-2015 21:55:28 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:28:25 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:28:37 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:28:48 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:28:56 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:28:57 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:29:41 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:30:19 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:30:19 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:30:20 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:30:30 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 01:30:31 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[13-Nov-2015 18:45:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[13-Nov-2015 18:45:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 185
+[14-Nov-2015 16:56:03 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[14-Nov-2015 16:56:09 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[14-Nov-2015 16:56:12 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[14-Nov-2015 16:56:13 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[14-Nov-2015 16:59:18 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[15-Nov-2015 02:47:21 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[19-Nov-2015 20:24:52 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[19-Nov-2015 20:25:12 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[20-Nov-2015 00:46:10 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[20-Nov-2015 02:10:18 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[20-Nov-2015 02:10:28 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[20-Nov-2015 02:10:31 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 246
+[28-Nov-2015 15:12:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:1) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[28-Nov-2015 15:14:55 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[28-Nov-2015 15:16:50 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[28-Nov-2015 15:17:15 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[28-Nov-2015 15:17:26 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[28-Nov-2015 15:18:20 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::setUserBirthday() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 225
+[28-Nov-2015 15:19:11 UTC] PHP Fatal error:  Can't use method return value in write context in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[28-Nov-2015 15:20:51 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::setUserBirthday() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 225
+[28-Nov-2015 15:21:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:1) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[28-Nov-2015 15:32:16 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::setUserBirthday() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 225
+[28-Nov-2015 15:33:47 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::setUserBirthday() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 225
+[30-Nov-2015 08:02:33 UTC] PHP Fatal error:  Call to undefined method FacebookConnect::setUserBirthday() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 225
+[30-Nov-2015 18:42:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:1) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[30-Nov-2015 18:48:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php:1) in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-includes/pluggable.php on line 1207
+[30-Nov-2015 19:28:49 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[30-Nov-2015 19:29:00 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[30-Nov-2015 19:29:02 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 248
+[30-Nov-2015 19:31:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[30-Nov-2015 19:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[30-Nov-2015 19:44:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[30-Nov-2015 19:44:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[01-Dec-2015 18:41:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[01-Dec-2015 18:41:27 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 326
+[01-Dec-2015 18:41:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[01-Dec-2015 18:41:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[19-Dec-2015 10:01:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[19-Dec-2015 10:01:49 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 326
+[13-Jan-2016 05:10:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[13-Jan-2016 05:10:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[13-Jan-2016 05:14:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[13-Jan-2016 05:14:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[27-Jan-2016 17:52:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[27-Jan-2016 17:52:19 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 326
+[28-Jan-2016 16:04:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[28-Jan-2016 16:04:26 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 326
+[28-Jan-2016 16:04:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[28-Jan-2016 16:04:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[09-Feb-2016 16:34:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 187
+[09-Feb-2016 16:34:13 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 326
+[09-Feb-2016 16:36:24 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[09-Feb-2016 16:36:34 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[09-Feb-2016 16:36:35 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[09-Feb-2016 16:36:37 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[09-Feb-2016 16:36:38 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:16:55 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:17:01 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:17:47 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:19:29 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:20:39 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:21:49 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:28:23 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:35:11 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:42:12 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:54:16 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[20-Mar-2016 01:54:26 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 18:10:17 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 18:10:36 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 18:10:41 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 18:10:47 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 18:11:26 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 18:12:47 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 19:45:55 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[21-Mar-2016 19:46:17 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[22-Mar-2016 16:51:28 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[22-Mar-2016 17:20:20 UTC] PHP Fatal error:  Call to a member function getGraphNode() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 306
+[22-Mar-2016 17:53:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[22-Mar-2016 17:53:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[22-Mar-2016 17:55:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[22-Mar-2016 17:55:05 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[31-Mar-2016 03:24:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[31-Mar-2016 03:24:06 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[31-Mar-2016 03:41:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[31-Mar-2016 03:41:28 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[02-Apr-2016 10:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[02-Apr-2016 10:02:18 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[03-Apr-2016 19:08:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[03-Apr-2016 19:08:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[04-Apr-2016 03:32:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[04-Apr-2016 03:32:49 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[20-Apr-2016 19:09:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[20-Apr-2016 19:09:28 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[03-Jun-2016 17:38:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[03-Jun-2016 17:38:51 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[07-Jun-2016 16:53:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[07-Jun-2016 16:53:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[07-Jun-2016 17:04:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[07-Jun-2016 17:04:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[29-Jun-2016 00:46:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[29-Jun-2016 00:46:04 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[26-Sep-2016 20:31:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[26-Sep-2016 20:31:43 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[18-Nov-2016 22:47:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[18-Nov-2016 22:47:24 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/shannonbit/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[19-Mar-2017 05:32:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 05:32:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:17:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:18:33 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:18:34 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:18:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:19:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:19:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:08 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Mar-2017 12:20:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Mar-2017 05:43:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Mar-2017 05:43:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Mar-2017 05:43:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Mar-2017 05:43:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Mar-2017 05:43:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Mar-2017 05:44:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Mar-2017 10:34:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Mar-2017 05:50:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Mar-2017 05:50:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Mar-2017 05:51:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Mar-2017 23:40:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Mar-2017 23:40:17 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Mar-2017 23:40:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Mar-2017 04:16:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Mar-2017 04:16:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Mar-2017 05:40:18 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Mar-2017 05:40:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Mar-2017 05:45:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Mar-2017 05:45:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Mar-2017 05:45:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Mar-2017 04:06:34 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Mar-2017 04:06:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:21:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:21:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:14 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:15 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:28:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:32:09 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:35:02 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:40:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:40:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:45:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:45:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 17:45:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 18:11:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 18:20:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 18:20:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 18:27:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 19:58:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 20:00:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Mar-2017 20:14:07 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Mar-2017 08:54:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Mar-2017 08:54:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Mar-2017 11:27:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Mar-2017 11:27:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Mar-2017 16:23:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Mar-2017 17:06:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Mar-2017 09:44:02 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Mar-2017 09:44:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Mar-2017 12:16:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Mar-2017 12:16:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Mar-2017 21:46:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-Apr-2017 10:46:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-Apr-2017 10:46:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Apr-2017 21:52:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Apr-2017 21:52:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-Apr-2017 01:47:18 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-Apr-2017 01:47:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-Apr-2017 05:33:49 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-Apr-2017 05:33:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[05-Apr-2017 05:43:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[05-Apr-2017 05:43:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[05-Apr-2017 05:43:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[06-Apr-2017 05:39:14 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[06-Apr-2017 05:39:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[06-Apr-2017 05:39:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Apr-2017 05:43:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Apr-2017 05:43:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Apr-2017 05:44:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Apr-2017 17:35:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Apr-2017 17:35:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Apr-2017 17:35:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-Apr-2017 05:38:14 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-Apr-2017 05:38:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-Apr-2017 05:38:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-Apr-2017 05:38:34 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-Apr-2017 05:38:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-Apr-2017 05:38:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Apr-2017 05:48:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Apr-2017 05:48:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Apr-2017 17:37:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Apr-2017 17:37:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Apr-2017 17:37:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Apr-2017 06:20:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Apr-2017 06:20:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Apr-2017 06:20:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Apr-2017 17:47:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Apr-2017 17:47:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Apr-2017 05:47:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Apr-2017 05:47:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Apr-2017 05:47:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Apr-2017 05:38:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Apr-2017 05:38:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Apr-2017 05:38:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Apr-2017 14:11:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Apr-2017 14:11:06 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Apr-2017 05:48:06 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Apr-2017 05:48:07 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Apr-2017 05:48:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-Apr-2017 05:37:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-Apr-2017 05:37:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-Apr-2017 05:37:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-Apr-2017 05:47:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-Apr-2017 05:47:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-Apr-2017 05:47:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-Apr-2017 23:37:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-Apr-2017 23:37:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-Apr-2017 23:37:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 05:40:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 05:40:26 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 05:40:31 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 10:04:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 16:32:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 16:32:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Apr-2017 16:32:33 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Apr-2017 05:38:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Apr-2017 05:38:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Apr-2017 05:38:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Apr-2017 23:39:02 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Apr-2017 23:39:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Apr-2017 23:39:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Apr-2017 05:34:08 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Apr-2017 05:34:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Apr-2017 05:34:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 11:55:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 11:55:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 11:55:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 17:46:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 17:46:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 17:46:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 17:46:33 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 17:46:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Apr-2017 17:46:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Apr-2017 05:42:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Apr-2017 05:42:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-Apr-2017 05:43:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Apr-2017 05:42:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Apr-2017 05:42:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-Apr-2017 05:42:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Apr-2017 05:39:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Apr-2017 05:39:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Apr-2017 05:39:41 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Apr-2017 23:39:07 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Apr-2017 23:39:08 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-Apr-2017 23:39:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 05:43:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 05:43:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 05:43:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 17:46:41 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 17:46:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 17:46:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-Apr-2017 22:37:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 05:49:27 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 05:49:29 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 05:49:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 17:35:15 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 17:35:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 17:35:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 20:47:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 23:34:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 23:34:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-Apr-2017 23:34:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Apr-2017 05:37:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Apr-2017 05:37:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Apr-2017 05:37:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Apr-2017 23:34:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Apr-2017 23:34:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-Apr-2017 23:35:07 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Apr-2017 05:30:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Apr-2017 05:30:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Apr-2017 05:31:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Apr-2017 23:44:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Apr-2017 23:44:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-Apr-2017 23:44:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-Apr-2017 11:40:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-Apr-2017 11:40:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-Apr-2017 11:40:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-Apr-2017 05:37:08 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-Apr-2017 05:37:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-Apr-2017 05:37:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Apr-2017 05:34:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Apr-2017 05:34:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Apr-2017 05:34:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Apr-2017 10:59:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Apr-2017 18:17:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-Apr-2017 18:17:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-May-2017 05:41:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-May-2017 05:41:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-May-2017 05:41:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 02:07:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 02:07:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 05:48:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 05:48:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 05:49:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 15:11:14 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-May-2017 15:11:15 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-May-2017 05:55:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-May-2017 05:55:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-May-2017 05:55:27 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-May-2017 10:53:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-May-2017 05:42:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-May-2017 05:42:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-May-2017 05:42:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-May-2017 17:41:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-May-2017 17:41:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[04-May-2017 17:42:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[05-May-2017 05:46:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[05-May-2017 05:46:26 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[05-May-2017 05:46:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[06-May-2017 05:41:25 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[06-May-2017 05:41:26 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[06-May-2017 05:41:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-May-2017 05:40:09 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-May-2017 05:40:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-May-2017 05:40:17 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-May-2017 05:46:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-May-2017 05:46:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-May-2017 05:47:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-May-2017 13:09:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[08-May-2017 13:10:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-May-2017 05:43:10 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-May-2017 05:43:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-May-2017 05:43:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 05:47:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 05:47:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 05:47:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:10:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:11:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:11:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:21:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:21:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:21:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:21:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:22:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:22:09 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:22:18 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:23:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:24:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:39:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:40:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 08:40:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 10:12:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 10:29:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 11:53:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 11:53:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 17:45:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 17:57:41 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 18:03:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 19:04:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 20:59:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-May-2017 21:56:17 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-May-2017 05:54:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-May-2017 05:54:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-May-2017 05:54:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-May-2017 09:24:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-May-2017 23:44:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-May-2017 23:44:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 05:42:34 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 05:42:41 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:21:31 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:21:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:23:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:52:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:54:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:55:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 12:55:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 17:25:14 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 21:23:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 21:33:31 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-May-2017 21:34:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 05:35:40 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 05:35:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 05:35:49 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 17:06:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 17:06:33 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 23:31:40 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-May-2017 23:31:41 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 05:38:15 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 05:38:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 05:38:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 08:03:02 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 17:32:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 17:32:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 17:33:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-May-2017 20:14:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 05:41:40 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 05:41:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 05:41:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 14:54:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 14:54:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 15:01:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-May-2017 17:37:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-May-2017 05:38:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-May-2017 05:38:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[16-May-2017 05:38:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 05:48:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 05:48:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 05:48:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 11:44:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 11:44:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 11:44:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 11:44:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 15:21:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 17:46:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 17:47:02 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 17:47:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 17:47:18 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-May-2017 17:47:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-May-2017 05:43:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-May-2017 05:43:37 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-May-2017 05:43:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-May-2017 18:50:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-May-2017 18:50:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-May-2017 05:58:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-May-2017 05:58:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-May-2017 05:59:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-May-2017 11:11:51 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-May-2017 20:42:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-May-2017 20:42:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-May-2017 05:44:27 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-May-2017 05:44:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-May-2017 05:44:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-May-2017 17:51:41 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-May-2017 17:51:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-May-2017 13:57:18 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[21-May-2017 13:57:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-May-2017 11:03:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[22-May-2017 11:03:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-May-2017 06:04:26 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-May-2017 06:04:27 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-May-2017 13:38:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-May-2017 13:38:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[23-May-2017 20:00:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-May-2017 09:13:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[24-May-2017 09:13:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-May-2017 03:22:32 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-May-2017 03:22:35 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-May-2017 12:33:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-May-2017 12:33:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[25-May-2017 16:02:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-May-2017 05:30:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-May-2017 05:30:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-May-2017 16:56:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[26-May-2017 16:56:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-May-2017 12:44:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-May-2017 12:44:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[27-May-2017 15:48:29 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-May-2017 05:43:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-May-2017 05:43:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-May-2017 15:39:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[28-May-2017 15:39:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-May-2017 04:52:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-May-2017 04:52:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-May-2017 12:22:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-May-2017 12:22:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[29-May-2017 15:27:27 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-May-2017 12:46:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-May-2017 12:46:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-May-2017 21:06:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-May-2017 21:11:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[30-May-2017 22:24:25 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-Jun-2017 02:11:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-Jun-2017 02:11:36 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[01-Jun-2017 04:25:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 10:16:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 10:16:31 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 10:16:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 10:20:34 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 10:20:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 10:20:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:15:42 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:16:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:17:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 15:24:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 17:22:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[02-Jun-2017 22:36:25 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-Jun-2017 12:15:48 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-Jun-2017 12:15:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-Jun-2017 14:12:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[03-Jun-2017 20:25:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Jun-2017 21:02:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[07-Jun-2017 21:02:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-Jun-2017 04:03:09 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[09-Jun-2017 04:03:15 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Jun-2017 18:15:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[10-Jun-2017 18:15:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Jun-2017 03:51:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[11-Jun-2017 03:51:25 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Jun-2017 04:19:53 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Jun-2017 04:19:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Jun-2017 16:12:38 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[12-Jun-2017 16:12:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Jun-2017 20:02:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Jun-2017 20:02:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Jun-2017 20:04:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Jun-2017 20:04:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Jun-2017 20:04:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[13-Jun-2017 20:04:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:10:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:10:17 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:10:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:10:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:10:30 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:10:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:11:16 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:11:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:11:26 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:12:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:12:09 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:13:21 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:15:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[14-Jun-2017 12:37:13 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-Jun-2017 20:57:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[15-Jun-2017 20:57:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Jun-2017 02:18:06 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Jun-2017 02:18:08 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Jun-2017 22:38:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[17-Jun-2017 22:38:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Jun-2017 07:55:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[18-Jun-2017 07:55:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:17:18 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:17:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:17:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:17:45 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:17:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 17:17:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/emmanuellelaguna/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[19-Jun-2017 12:17:47 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 17:17:47 UTC] PHP Fatal error:  Call to a member function getGraphEdge() on a non-object in /home/emmanuellelaguna/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 325
+[19-Jun-2017 12:18:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:19:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:19:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:19:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:19:49 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:22:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:22:24 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:22:25 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:22:26 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:22:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:22:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:23:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:23:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 17:23:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/emmanuellelaguna/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[19-Jun-2017 17:23:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/emmanuellelaguna/public_html/cisocial.org.mx/protegetusdatos/wp-content/themes/dataTaker/modules/facebook.php on line 186
+[19-Jun-2017 12:23:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:31:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:31:39 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:32:01 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:32:43 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:32:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:32:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[19-Jun-2017 12:32:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:26:22 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:26:23 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:26:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:26:57 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:26:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:27:00 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:36:07 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:36:11 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:36:14 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:36:55 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:40:28 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:48:44 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 01:48:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 02:04:46 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 02:04:49 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 02:04:50 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 02:04:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 02:04:59 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:51:56 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:51:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:52:52 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:52:58 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:55:02 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:55:04 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:55:08 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 08:55:34 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 10:58:54 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 10:59:03 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 10:59:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 10:59:05 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 11:09:12 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 11:09:19 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 11:09:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0
+[20-Jun-2017 11:09:20 America/Chicago] PHP Warning:  PHP Startup: unknown constant in suhosin.log.syslog= in Unknown on line 0

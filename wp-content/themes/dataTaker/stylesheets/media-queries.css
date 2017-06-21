@@ -1,0 +1,541 @@
+/* Retina Support
+==================================================
+==================================================
+================================================== */
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi) { 
+
+	.flex-pauseplay a { background:rgba(0,0,0,0.8) url(../images/retina/flexsliderPlayPause@2x.png) no-repeat;background-size:50px 100px }
+	.flex-direction-nav a { background:rgba(0,0,0,0.8) url(../images/retina/flexsliderNav@2x.png) no-repeat;background-size:50px 100px }
+
+	.menuToggle { background: url(../images/retina/menuToggle@2x.png) no-repeat;background-size:15px 15px }
+
+	hr { background:url(../images/retina/divider@2x.png) repeat-x;background-size:6px 6px }
+	.intro { background:url(../images/retina/divider@2x.png) bottom left repeat-x;background-size:6px 6px }
+	blockquote, cite { background:url(../images/retina/quotes@2x.png) no-repeat;background-size:48px 34px }
+	ul.checklist li { background:url(../images/retina/list-check@2x.png) 0 50% no-repeat;background-size:10px 10px }
+	ul.arrow li { background:url(../images/retina/list-arrow@2x.png) 0 50% no-repeat;background-size:10px 10px }
+	ul.plus li { background:url(../images/retina/list-plus@2x.png) 0 50% no-repeat;background-size:10px 10px }
+	ul.double-arrows li { background:url(../images/retina/list-double-arrows@2x.png) 0 50% no-repeat;background-size:10px 10px }
+		
+	ul.team-member ul.team-social li a { background:#D00355 url(../images/retina/team-social@2x.png) 0 0 no-repeat;background-size:90px 30px}
+
+	ul.portfolio-filters li a { background:url(../images/retina/portfolioFilters@2x.png) 0 2px no-repeat;background-size:12px 10px }
+	ul.portfolio-filters li a.selected,ul.portfolio-filters li a:hover,
+	ul.portfolio-filters li a:active { background:url(../images/retina/portfolioActiveFilters@2x.png) 0 2px no-repeat;background-size:12px 10px }
+	article.portfolio .portfolio-zoom, article.spotlight .portfolio-zoom { background:#D00355 url(../images/retina/link@2x.png) 50% 50% no-repeat;background-size:14px 14px }
+
+	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span { background:#161616 url(../images/fancybox.png) no-repeat;background-size:90px 30px }
+
+	.skin.vjs-paused .vjs-play-control div { background:url(../images/retina/video@2x.png) -20px 0;background-size:80px 64px }
+	.skin.vjs-playing .vjs-play-control div {background:url(../images/retina/video@2x.png) 0 0;background-size:80px 64px }
+	.skin .vjs-mute-control div { background:url(../images/retina/video@2x.png) 0 -20px;background-size:80px 64px }
+	.skin .vjs-mute-control.vjs-vol-0 div { background:url(../images/retina/video@2x.png) -20px -20px;background-size:80px 64px }
+	.skin div.vjs-seek-handle { background:url(../images/retina/video@2x.png) -40px -20px;background-size:80px 64px }
+	.skin.vjs-fullscreen .vjs-fullscreen-control div { background:url(../images/retina/video@2x.png) -60px 0;background-size:80px 64px }
+	.skin .vjs-fullscreen-control div { background:url(../images/retina/video@2x.png) -40px 0;background-size:80px 64px }
+	.skin div.vjs-big-play-button span { background:url(../images/retina/video@2x.png) 0 -40px;background-size:80px 64px }
+
+	article.post .post-detail span.post-icon { background:#D00355 url(../images/retina/postPin@2x.png) 50% 50% no-repeat;background-size:14px 14px }
+	article.post section.meta .date, .full-post .post-content .meta .time { background:url(../images/retina/date@2x.png) 0 3px no-repeat;background-size:12px 12px }
+	.full-post .post-content .meta .author { background:url(../images/retina/author@2x.png) 0 3px no-repeat;background-size:12px 12px }
+	#load-post a { background:url(../images/retina/load-post@2x.png) right center no-repeat;background-size:28px 28px }
+
+
+	.alarm { background:url(../images/retina/alarm@2x.png) no-repeat }
+	.application { background:url(../images/retina/application@2x.png) no-repeat }
+	.arrows { background:url(../images/retina/arrows@2x.png) no-repeat }
+	.brush { background:url(../images/retina/brush@2x.png) no-repeat }
+	.clock { background:url(../images/retina/clock@2x.png) no-repeat }
+	.filmstrip { background:url(../images/retina/filmstrip@2x.png) no-repeat }
+	.footprint { background:url(../images/retina/footprint@2x.png) no-repeat }
+	.globe { background:url(../images/retina/globe@2x.png) no-repeat }
+	.help { background:url(../images/retina/help@2x.png) no-repeat }
+	.home { background:url(../images/retina/home@2x.png) no-repeat }
+	.info { background:url(../images/retina/info@2x.png) no-repeat }
+	.leaf { background:url(../images/retina/leaf@2x.png) no-repeat }
+	.mail { background:url(../images/retina/mail@2x.png) no-repeat }
+	.lightbulb { background:url(../images/retina/lightbulb@2x.png) no-repeat }
+	.speechbubble { background:url(../images/retina/speechbubble@2x.png) no-repeat }
+	.strategy { background:url(../images/retina/strategy@2x.png) no-repeat }
+	.wifi { background:url(../images/retina/wifi@2x.png) no-repeat }
+	.write { background:url(../images/retina/write@2x.png) no-repeat }
+
+	.alarm, .application, .arrows, .brush, .clock, .filmstrip, .footprint, .globe, .help, .home, .info, .leaf, .mail,
+	.lightbulb, .speechbubble, .strategy, .wifi, .write { background-size:32px 32px }
+
+	.contact-icon { background:url(../images/retina/contact-icon@2x.png) 50% 100% no-repeat;background-size:32px 32px }
+	.twitter-icon { background:url(../images/retina/twitter-icon@2x.png) 50% 100% no-repeat;background-size:32px 32px }
+
+	#message-box { background:url(../images/icons/heart.png) 0 3px no-repeat;background-size:15px 12px }
+
+	ul.social_icons a { background:url(../images/retina/social-icons@2x.png) 0 0 no-repeat;background-size:768px 128px }
+
+}
+
+/* Tablet - portrait
+==================================================
+==================================================
+================================================== */
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 960px) {
+
+	#about-heading, #portfolio-heading, #blog-heading, #contact-heading, #customers, .spotlight-bg, #quote-1, #quote-2, #quote-3, #address { 
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		-webkit-background-size:cover;
+		background-attachment: scroll;
+		background-size:cover
+	}
+
+/* Typography  ----------- */
+	h1 { font-size:38px;line-height:1.4211em }
+	h2 { font-size:30px;line-height:1.2em }
+	h3 { font-size:26px;line-height:1.3846em }
+	h4 { font-size:22px;line-height:1.6364em }
+	h5 { font-size:17px;line-height:1.0588em }
+	h6 { font-size:15px;line-height:1.2em }
+
+	.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6{ line-height:1.2857em;font-size:42px }
+	.intro { font-size:24px;line-height:1.5em;margin:5px 0 30px 17px }
+	blockquote,cite { font:bold 22px/1.2857em 'Open Sans Condensed', 'Helvetica Neue', Arial, sans-serif;margin:10px 0 10px 30px }
+	blockquote span,cite span { font:bold 12px/1.5em 'Helvetica Neue', Arial, sans-serif; }
+
+/* Homepage - background slider  ----------- */
+	h1#main-logo {
+		height:40px;
+		margin:-70px 0 0 -70px;
+		padding:50px 20px;
+		top:50%;
+		width:100px
+	}
+
+	.flex-pauseplay a { display:none }
+	.flex-direction-nav a { bottom:30px }
+	.flex-direction-nav .flex-next { right:30px }
+	.flex-direction-nav .flex-prev { right:81px }
+
+	#background-slider .caption-center { bottom:100px }
+	#background-slider .caption-left, #background-slider .caption-right { bottom:100px;width:370px }
+	#background-slider .caption-left { left:30px }
+	#background-slider .caption-right { right:30px }
+	#background-slider .caption-center p, #background-slider .caption-left p, #background-slider .caption-right p { font:300 16px/1.125em 'Oswald','Helvetica Neue',Arial,sans-serif }
+	#background-slider .caption-center em, #background-slider .caption-left em, #background-slider .caption-right em { font:300 22px/1.6364em 'Oswald','Helvetica Neue',Arial,sans-serif }
+
+/* Service boxes  ----------- */
+	.service-icon { margin-right:0 }
+	.service-icon, .service-icon-center, .service-icon-right, .service-icon-left { margin-bottom:30px }
+
+/* Clients logos  ----------- */
+	ul.logos li { margin-right:0;width:16% }
+
+/* Team section  ----------- */
+	 .team-heading h1, .team-heading h2, .team-heading h3, .team-heading h4, .team-heading h5, .team-heading h6 { margin-top:5px }
+	.member-image { height:94px;padding:5px;width:94px }
+	ul.team-member li img { height:94px;width:104px }
+	ul.team-member .member-image ul.team-social { height:67px;padding:37px 0 0 8px;width:96px }
+	ul.team-member ul.team-social li a { height:25px;margin-left:3px;width:25px }
+	ul.team-member ul.team-social a.twitter-team { background-position:-3px -3px }
+	ul.team-member ul.team-social a.dribbble-team { background-position:-33px -3px }
+	ul.team-member ul.team-social a.facebook-team { background-position:-63px -3px }
+
+/* Portfolio  ----------- */
+	ul.portfolio-filters { margin:0 0 0 80px }
+	ul.portfolio-filters li { padding-right:30px }
+
+/* Spotlight sections  ----------- */
+	.spotlight {
+		height:143px;
+		margin:0 0 0 30px;
+		padding:5px;
+		width:143px
+	}
+
+	.spotlight .spotlight-detail { height:123px;padding:30px 0 0 0;width:153px }
+
+	.spotlight-bg{ height:350px }
+	.big-spotlight .container{ margin-top:-300px }
+	.big-slider { background-size:708px auto;left:50%;margin-left:-354px }
+	.big-slider .slides > li { left:85px;position:absolute;top:22px }
+	.big-slider .slides img { height:337px;width:538px }
+	.big-slider .slides { height:457px }
+	.big-slider .flex-control-nav { margin-left:-17% }
+
+/* Blog section  ----------- */
+	#blog { margin-top:-30px }	
+	.full-post { overflow-y:scroll;bottom:10% }
+	#load-post { height:60px;padding-top:30px }
+	#load-post a { font:700 24px/1.125em 'Oswald','Helvetica Neue',Arial,sans-serif;padding:10px 60px 10px 0 }
+
+/* Contact section  ----------- */
+	#address { height:805px;margin-left:0 !important }
+	fieldset { float:none !important;margin:0 0 30px 30px !important;width:724px !important }
+	fieldset p { margin:0 30px 0 0 !important;width:211px !important }
+	fieldset p .span5 { width:664px !important }
+	input[type=email],input[type=text],textarea { width:181px !important }
+	.btn { margin: 160px -242px 0 0; }
+	#map_canvas { top:635px; }
+	.office-box { height:160px;padding:20px 0;width:200px;margin-left:108px }
+	.office-box p { font-size:11px;margin:8px 0 }
+	#message-box {  margin:-30px 0 0 0 }
+	#message-box p {  width:520px !important }
+
+/* Footer section  ----------- */
+	footer { padding-bottom:60px !important }
+	footer .twitter-feed { height:90px; }
+	footer .tweet_list li { height:60px;padding:15px 0 }
+	footer .tweet_list .tweet_text { font-size:15px;line-height:1.2em;margin-top:5px }
+
+	ul.social_icons { margin:30px auto;width:684px }
+	ul.social_icons a { background-size:auto 94px;height:47px;width:47px }
+
+	ul.social_icons a#twitter { background-position:0 0 }
+	ul.social_icons a#facebook { background-position:-47px 0 }
+	ul.social_icons a#dribbble { background-position:-94px 0 }
+	ul.social_icons a#vimeo { background-position:-141px 0 }
+	ul.social_icons a#flickr { background-position:-188px 0 }
+	ul.social_icons a#youtube { background-position:-235px 0 }
+	ul.social_icons a#skype { background-position:-282px 0 }
+	ul.social_icons a#forrst { background-position:-329px 0 }
+	ul.social_icons a#google { background-position:-376px 0 }
+	ul.social_icons a#digg { background-position:-423px 0 }
+	ul.social_icons a#share-this { background-position:-470px 0 }
+	ul.social_icons a#rss { background-position:-517px 0 }
+	
+	ul.social_icons a#twitter:hover { background-position:0 -47px }
+	ul.social_icons a#facebook:hover { background-position:-47px -47px }
+	ul.social_icons a#dribbble:hover { background-position:-94px -47px }
+	ul.social_icons a#vimeo:hover { background-position:-141px -47px }
+	ul.social_icons a#flickr:hover { background-position:-188px -47px }
+	ul.social_icons a#youtube:hover { background-position:-235px -47px }
+	ul.social_icons a#skype:hover { background-position:-282px -47px }
+	ul.social_icons a#forrst:hover { background-position:-329px -47px }
+	ul.social_icons a#google:hover { background-position:-376px -47px }
+	ul.social_icons a#digg:hover { background-position:-423px -47px }
+	ul.social_icons a#share-this:hover { background-position:-470px -47px }
+	ul.social_icons a#rss:hover { background-position:-517px -47px }
+
+	ul.social_icons li a span{ left: 53px;margin-left: -64px }
+
+}
+
+/* Tablet -landscape
+==================================================
+==================================================
+================================================== */
+
+@media only screen 
+and (min-width : 961px) 
+and (max-width : 1024px) {
+
+	#about-heading, #portfolio-heading, #blog-heading, #contact-heading, #customers, .spotlight-bg, #quote-1, #quote-2, #quote-3, #address { 
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		-webkit-background-size:cover;
+		background-attachment: scroll;
+		background-size:cover
+	}
+
+/* Homepage - background slider  ----------- */
+	h1#main-logo {
+		height:40px;
+		margin:-70px 0 0 -70px;
+		padding:50px 20px;
+		top:50%;
+		width:100px
+	}
+
+	.flex-pauseplay a { display:none }
+	.flex-direction-nav a { bottom:30px }
+	.flex-direction-nav .flex-next { right:30px }
+	.flex-direction-nav .flex-prev { right:81px }
+
+	#background-slider .caption-center { bottom:100px }
+	#background-slider .caption-left, #background-slider .caption-right { bottom:100px;width:370px }
+	#background-slider .caption-left { left:30px }
+	#background-slider .caption-right { right:30px }
+	#background-slider .caption-center p, #background-slider .caption-left p, #background-slider .caption-right p { font:300 16px/1.125em 'Oswald','Helvetica Neue',Arial,sans-serif }
+	#background-slider .caption-center em, #background-slider .caption-left em, #background-slider .caption-right em { font:300 22px/1.6364em 'Oswald','Helvetica Neue',Arial,sans-serif }
+
+/* Service boxes  ----------- */
+	.service-icon { margin-right:0 }
+	.service-icon, .service-icon-center, .service-icon-right, .service-icon-left { margin-bottom:30px }
+
+/* Clients logos  ----------- */
+	ul.logos li { margin-right:0;width:16% }
+
+/* Team section  ----------- */
+	.member-image { height:130px;width:130px }
+	ul.team-member li img { height:130px;width:130px }
+	ul.team-member .member-image ul.team-social { height:85px;padding:55px 0 0 10px;width:130px }
+	ul.team-member ul.team-social li a { margin-left:10px }
+
+/* Portfolio  ----------- */
+	ul.portfolio-filters { margin:0 0 0 150px }
+	ul.portfolio-filters li { padding-right:50px }
+
+/* Spotlight sections  ----------- */
+	.spotlight {
+		height:190px;
+		margin:0 15px;
+		padding:10px;
+		width:190px
+	}
+
+	.spotlight .spotlight-detail { height:160px;padding:50px 0 0 0;width:210px }
+
+	.spotlight-bg{ height:350px }
+	.big-spotlight .container{ margin-top:-300px }
+	.big-slider .flex-control-nav { margin-left:-21% }
+
+/* Blog section  ----------- */
+	.full-post { height:600px;left:50%;margin-left:-300px;overflow-y:scroll;bottom:10%;width:600px }
+
+/* Contact section  ----------- */
+	.office-box { height:155px;padding:20px 0;width:195px }
+	.office-box p { font-size:11px;margin:8px 0 }
+
+}
+
+/* Smartphone - portrait and landscape
+==================================================
+==================================================
+================================================== */
+
+@media only screen 
+and (min-width: 240px) 
+and (max-width: 767px) {
+
+	body { padding:0 }
+	.row { padding:0 30px }
+	.parallax { padding:40px 0 }
+
+	#about-heading, #portfolio-heading, #blog-heading, #contact-heading, #customers, .spotlight-bg, #quote-1, #quote-2, #quote-3, #address { 
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		-webkit-background-size:cover;
+		background-attachment: scroll;
+		background-size:cover
+	}
+
+	ul.checklist, ul.arrow, ul.plus, ul.double-arrows { margin-bottom:60px }
+
+/* Typography  ----------- */
+	h1 { font-size:38px;line-height:1.4211em }
+	h2 { font-size:30px;line-height:1.2em }
+	h3 { font-size:26px;line-height:1.3846em }
+	h4 { font-size:22px;line-height:1.6364em }
+	h5 { font-size:17px;line-height:1.0588em }
+	h6 { font-size:14px;line-height:1.5em }
+
+	.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6{ line-height:1.125em;font-size:32px }
+	.heading { margin-bottom:0;padding:0 }
+	.intro { font-size:24px;line-height:1.5em;margin:20px 0 30px 0 }
+	blockquote,cite { font:bold 16px/1.125em 'Open Sans Condensed', 'Helvetica Neue', Arial, sans-serif;margin:0;padding:60px 0 }
+	blockquote span,cite span { font:bold 11px/ 1.6364em 'Helvetica Neue', Arial, sans-serif;margin-top:30px }
+
+/* Homepage - background slider  ----------- */
+	h1#main-logo {
+		height:30px;
+		margin:-55px 0 0 -55px;
+		padding:40px 10px;
+		top:50%;
+		width:90px
+	}
+
+	.flex-direction-nav a {
+		background-size: 35px auto;
+		height:35px;
+		margin:-18px 0 0;
+		bottom:100px;
+		width:35px;
+	}
+
+	.flex-pauseplay a { display:none }
+	.flex-direction-nav a { bottom:10px }
+	.flex-direction-nav .flex-next { right:126px }
+	.flex-direction-nav .flex-prev { right:162px }
+
+	#background-slider .caption-center, #background-slider .caption-left, #background-slider .caption-right { bottom:55px;left:0;text-align:center;width:100% }
+	#background-slider .caption-center p, #background-slider .caption-left p, #background-slider .caption-right p { font:300 14px/1.2857em 'Oswald','Helvetica Neue',Arial,sans-serif }
+	#background-slider .caption-center em, #background-slider .caption-left em, #background-slider .caption-right em { font:700 14px/1.2857em 'Oswald','Helvetica Neue',Arial,sans-serif;padding:0 5px }
+
+/* Mobile menu toggle  ----------- */
+	nav .row { padding:0 }
+	nav { background:rgba(0,0,0,0.8);bottom:-120px;height:100px }
+	nav a#logo { float:none;position:absolute;left:50%;margin:0 0 0 -41px;top:15px;width:82px }
+	nav a#logo h1 { color:#FFF;font:100 23px/1.5652em Arizonia, cursive;margin-top:5px }
+
+	.menuToggle { display:block;left:50%;margin:0 0 0 -6px;position:absolute;top:75px;width:15px }
+	.no-js .menuToggle { display:none }
+	.nav { display:none }
+	.no-js .nav { display:block }
+	.nav { background:rgba(0,0,0,0.8);top:120px;position:absolute;width:100% }
+	.nav li { width:100% }
+	.nav li a { color:#fff !important;text-align:center }
+	nav .nav li a:hover, nav .nav li a:active, nav .nav li a:focus,nav .nav .active a { border-bottom:1px solid #7e0032;border-right:none }
+
+/* Clients logos  ----------- */
+	ul.logos li { margin-right:0;width:122px }
+
+/* Team section  ----------- */
+	.team-heading h1, .team-heading h2, .team-heading h3, .team-heading h4, .team-heading h5, .team-heading h6 { margin-top:5px }
+	ul.team-member { margin:0 auto;width:260px }
+	.member-image { height:250px;padding:5px;width:250px }
+	ul.team-member li { float:left;margin-bottom:30px }
+	ul.team-member li img { height:250px;width:250px }
+	ul.team-member .member-image ul.team-social { height:150px;padding:110px 0 0 50px;width:210px }
+	ul.team-member ul.team-social li { float:left !important;width:auto }
+	ul.team-member ul.team-social li a { height:30px;margin-left:15px;width:30px }
+	ul.team-member li.team-heading { float:left;margin-left:0;margin-bottom:40px;width:100%  }
+
+/* Portfolio  ----------- */
+	ul.portfolio-filters { margin-left:30% }
+	ul.portfolio-filters li { text-align:left;width:100% }
+	article.portfolio .portfolio-detail h1, article.portfolio .portfolio-detail h2, article.portfolio .portfolio-detail h3, article.portfolio .portfolio-detail h4, article.portfolio .portfolio-detail h5,
+	article.portfolio .portfolio-detail h6 {margin-top:25% } 
+
+/* Spotlights  ----------- */
+	.small-slider { margin:0 0 30px 0;width:100% !important }
+	.small-slider .flex-control-nav { bottom:-30px }
+
+	.spotlight {
+		float:none;
+		height:235px;
+		margin:0 auto 30px auto !important;
+		padding:5px;
+		width:235px
+	}
+
+	.spotlight .spotlight-detail { height:170px;padding:75px 0 0 0;width:245px }
+
+	/* Big slider  */
+
+	.spotlight-bg{ height:130px }
+	.big-spotlight .container{ margin-top:-140px }
+	.big-slider { background-size:245px auto;left:50%;margin-left:-122px }
+	.big-slider .slides > li { left:30px;position:absolute;top:8px }
+	.big-slider .slides img { height:116px;width:185px }
+	.big-slider .slides { height:176px }
+	.big-slider .flex-control-nav { margin-left:-17% }
+
+/* Blog section  ----------- */
+	#blog { margin-top:-30px }	
+	article.post .post-detail { margin:0 20px 10px 20px;width:80% }
+	article.post section.meta { font-size:11px }
+	article.post section.meta a { float:left;margin:0 30px 10px 0 }
+	.full-post { height:100%;left:50%;margin-left:-122px;overflow-y:scroll;bottom:10%;width:245px }
+	.full-post .post-img { margin-bottom:0 }
+	.full-post .post-content { float:left;margin:20px 10px;width:225px }
+	.full-post .post-content .meta { margin:10px 0 30px;width:205px }
+	.full-post .post-content .meta .author { float:left;margin-top:10px }
+	#load-post { height:50px;padding-top:20px }
+	#load-post a { font:700 22px/1.2em 'Oswald','Helvetica Neue',Arial,sans-serif;padding:10px 60px 10px 0 }
+
+/* Contact section  ----------- */
+	#address { height:1185px }
+	fieldset, form { margin-left:0 }
+	fieldset p { margin:0 30px 0 0 !important;width:100% !important }
+	.btn { margin-right:0 }
+	.office-box { height:250px !important;margin-top:30px;padding:40px 0 !important;width:100% !important }
+	.office-box p { font-size:11px;margin:8px 0 }
+	#map_canvas { top:1045px; }
+
+/* Footer section  ----------- */
+	footer { padding-bottom:0 !important }
+	footer .twitter-feed { height:100px; }
+	footer .tweet_list li { height:80px;padding:10px 0 }
+	footer .tweet_list .tweet_text { font-size:12px;line-height:1.5em;margin-top:5px }
+
+	ul.social_icons { height:86px;width:100% }
+	ul.social_icons a { background-size:auto 66px;height:33px;margin:0 4px 10px 4px;width:33px }
+
+	ul.social_icons a#twitter { background-position:0 0 }
+	ul.social_icons a#facebook { background-position:-33px 0 }
+	ul.social_icons a#dribbble { background-position:-66px 0 }
+	ul.social_icons a#vimeo { background-position:-99px 0 }
+	ul.social_icons a#flickr { background-position:-132px 0 }
+	ul.social_icons a#youtube { background-position:-165px 0 }
+	ul.social_icons a#skype { background-position:-198px 0 }
+	ul.social_icons a#forrst { background-position:-231px 0 }
+	ul.social_icons a#google { background-position:-264px 0 }
+	ul.social_icons a#digg { background-position:-297px 0 }
+	ul.social_icons a#share-this { background-position:-330px 0 }
+	ul.social_icons a#rss { background-position:-363px 0 }
+	
+	ul.social_icons a#twitter:hover { background-position:0 -33px }
+	ul.social_icons a#facebook:hover { background-position:-33px -33px }
+	ul.social_icons a#dribbble:hover { background-position:-66px -33px }
+	ul.social_icons a#vimeo:hover { background-position:-99px -33px }
+	ul.social_icons a#flickr:hover { background-position:-132px -33px }
+	ul.social_icons a#youtube:hover { background-position:-165px -33px }
+	ul.social_icons a#skype:hover { background-position:-198px -33px }
+	ul.social_icons a#forrst:hover { background-position:-231px -33px }
+	ul.social_icons a#google:hover { background-position:-264px -33px }
+	ul.social_icons a#digg:hover { background-position:-297px -33px }
+	ul.social_icons a#share-this:hover { background-position:-330px -33px }
+	ul.social_icons a#rss:hover { background-position:-363px -33px }
+
+	ul.social_icons li a span{ display:none !important }
+
+}
+
+/* 3 Smartphone - landscape
+==================================================
+==================================================
+================================================== */
+
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 767px) {
+
+/* Homepage - background slider  ----------- */
+	#background-slider .caption-center, #background-slider .caption-left, #background-slider .caption-right { bottom:35%;left:0;text-align:center;width:100% }
+
+/* Mobile menu toggle  ----------- */
+	nav { bottom:-65px;height:45px }
+	nav a#logo { left:45%;top:15px }
+	.menuToggle { left:57%;top:23px }
+	.nav { top:65px }
+
+/* Clients logos  ----------- */
+	ul.logos li { margin-right:0;width:33% }
+
+/* Team section  ----------- */
+	ul.team-member { margin:0 auto;width:260px }
+
+/* Portfolio  ----------- */
+	ul.portfolio-filters { margin-left:37% }
+	article.portfolio .portfolio-detail h1, article.portfolio .portfolio-detail h2, article.portfolio .portfolio-detail h3, article.portfolio .portfolio-detail h4, article.portfolio .portfolio-detail h5,
+	article.portfolio .portfolio-detail h6 {margin-top:23% } 
+
+/* Spotlights  ----------- */
+	.spotlight-bg{ height:250px }
+	.big-spotlight .container{ margin-top:-260px }
+	.big-slider { background-size:493px auto;left:50%;margin-left:-246px }
+	.big-slider .slides > li { left:59px;position:absolute;top:16px }
+	.big-slider .slides img { height:233px;width:375px }
+	.big-slider .slides { height:330px }
+
+	ul.checklist, ul.arrow, ul.plus, ul.double-arrows { margin-bottom:60px }
+
+/* Contact section  ----------- */
+	#address { height:885px }
+	.office-box { float:left;height:230px !important;margin:30px 8px 0 8px;width:230px !important }
+	#map_canvas { top:730px; }
+
+}
+
+
+
+@media only screen 
+and (min-width: 1024px) 
+and (max-width: 1824px) {
+
+	.full-post { height:600px;overflow-y:scroll }
+
+}

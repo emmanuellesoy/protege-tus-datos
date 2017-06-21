@@ -1,0 +1,218 @@
+/*
+Theme Name:   dataTaker
+Theme URI:    http://http://cisocial.org.mx/protegetusdatos/
+Description:  Data Taker es un tema basado en Twenty Fifteen Wordpress Theme para el sitio protege tus datos de Ciudadanía para la Integración Social AC
+Author:       shannonbit
+Author URI:   http://emmanuellelaguna.com
+Template:     twentyfifteen
+Version:      0.0.20151011
+License:      All Rights Reserved
+Text Domain:  dataTaker
+*/
+
+/* Import Bootstrap Framework
+================================================== */
+@import url(stylesheets/bootstrap.min.css);
+@import url(stylesheets/bootstrap-responsive.min.css);
+
+/* Import Global Styles
+================================================== */
+@import url(stylesheets/global-styles.css);
+
+/* Import Layout
+================================================== */
+@import url(stylesheets/layout.css);
+
+/* Import Media Queries
+================================================== */
+@import url(stylesheets/media-queries.css);
+
+/* Import Google Web Fonts
+================================================== */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Dynalight);
+
+#customers {
+  background: url(images/comic-filter.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.html-video {
+  position: relative;
+}
+
+.canvas-video
+{
+  display:none;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+#canvas-video::after {
+  content: "";
+  background: url('images/comic-filter.png');
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.first-video-data,
+.second-video-data
+{
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: .9;
+}
+
+.first-video-data img
+{
+  margin-left: 50.3%;
+  margin-top: 11.5%;
+  height: 18%;
+  width: 10.5%;
+}
+
+
+.second-video-data img
+{
+  max-width: 50%;
+  float: right;
+  margin: 5%;
+}
+
+label.first-data-label.first-data-label-1
+{
+  top: 8.5%;
+}
+
+label.first-data-label.first-data-label-2
+{
+  top: 9%;
+}
+
+label.first-data-label.first-data-label-3 {
+  top: 11%;
+}
+
+div#first-data,
+div#second-data,
+div#third-data,
+div#fourth-data,
+div#thermometer
+{
+  display: none;
+}
+
+label.first-data-label
+{
+  font-size: 12px;
+  clear: both;
+  margin-left: 51%;
+  max-width: 11.5%;
+  max-height: 5%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+label.second-data-label
+{
+  float: left;
+  clear: both;
+  margin-left: 19%;
+  height: 4.2%;
+  max-width: 13.1%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+label.second-data-label.second-data-label-1 {
+  margin-top: 12.5%;
+}
+
+div#second-data img
+{
+  float: left;
+  clear: both;
+  margin-left: 6.5%;
+  max-width: 60%;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 1%;
+}
+
+.third-data img
+{
+  max-width: 60%;
+  height: auto;
+  vertical-align: middle;
+  border: 0px none;
+  margin-left: 38.5%;
+  margin-top: 1%;
+}
+
+h1#main-logo
+{
+  width: 256px;
+  height: auto;
+  background: none;
+}
+
+ul.logos
+{
+  margin-left: 30%;
+}
+
+/* img cover resize */
+.second-video-data
+{
+
+}
+
+#second-data div.map {
+  display: block;
+  height: 94%;
+  width: 58%;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+
+#fourth-data img
+{
+  width: 20% !important;
+  height: auto !important;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#fourth-data {
+    background-color: #000;
+}
+
+.thermometer-outer {
+  background: #D00355;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  height: 20px;
+  width: 100%;
+}
+.thermometer-inner {
+  background: #6B193A;
+  height: 20px;
+}

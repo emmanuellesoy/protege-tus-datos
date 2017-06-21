@@ -1,0 +1,281 @@
+/* Global Styles
+==================================================
+==================================================
+================================================== */
+
+/* 1 Global */
+/* 2 Typography */
+/* 3 Common classes */
+/* 4 Buttons */
+/* 5 Lists */
+
+/*
+==================================================
+==================================================
+================================================== */
+
+/* 1 Global
+==================================================
+==================================================
+================================================== */
+
+	html, body { overflow-x:hidden!important }
+	
+	body {
+		background:#000;
+		color:#555;
+		height:100%;
+		width:100%
+	}
+	
+	a {
+		-moz-transition:all .3s ease-out;
+		-o-transition:all .3s ease-out;
+		-webkit-transition:all .3s ease-out;
+		color:#bfbfbf;
+		outline:none !important;
+		text-decoration:none;
+		transition:all .3s ease-out
+	}
+	
+	a:hover, a:focus, a:active {
+		-moz-outline-style:none;
+		color:#D00355;
+		outline:none;
+		text-decoration:none
+	}
+	
+	blockquote, cite {
+		background:url(../images/icons/quotes.png) no-repeat;
+		border:none;
+		color:#FFF;
+		margin:60px 0 60px 30px;
+		padding:60px 90px;
+		text-align:center;
+		text-shadow:1px -1px 2px #000;
+		text-transform:uppercase
+	}
+	
+	blockquote span, cite span {
+		float:right;
+		margin-top:60px;
+		text-align:right;
+		text-shadow:1px -1px 2px #000;
+		text-transform:uppercase;
+		width:100%
+	}
+	
+	p { color:#666;margin:20px 0 }
+	dd { margin-left:30px }
+	em { color:#D00355 }
+	ul, ol { margin:0 }
+	li { list-style:none }
+	img { float:left }
+	
+	hr {
+		background:url(../images/divider.png) repeat-x;
+		border:none!important;
+		float:left;
+		height:30px;
+		margin:30px 0;
+		width:100%
+	}
+
+/* 2 Typography
+==================================================
+==================================================
+================================================== */
+
+	body { font:300 12px/1.5em 'Helvetica Neue',Arial,Helvetica,sans-serif }
+	
+	h1, h2, h3, h4, h5, h6 { color:#bfbfbf;font-family:'Oswald','Helvetica Neue',Arial, sans-serif;font-weight:300;margin:10px 0 }
+	
+	h1 { font-size:42px;line-height:1.2857em }
+	h2 { font-size:34px;line-height:1.0588em }
+	h3 { font-size:28px;line-height:1.2857em }
+	h4 { font-size:24px;line-height:1.5em }
+	h5 { font-size:18px;line-height:1em }
+	h6 { font-size:16px;line-height:1.125em }
+	
+	blockquote, cite { font:700 34px/1.2857 'Oswald','Helvetica Neue',Arial,sans-serif }
+	blockquote span, cite span { font:700 14px/1.4211em 'Helvetica Neue',Arial,sans-serif }
+	
+	a { font-weight:300 }
+	a.button { font-weight:400 }
+	
+	p { font:12px/1.5em;margin:20px 0 }
+	em { font-style:normal;font-weight:400 }
+	
+	.intro { font:300 34px/1.0588em 'Oswald','Helvetica Neue',Arial,sans-serif }
+	.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6{ line-height:1.1613em;font-size:62px;font-weight:700 }
+	
+	ul.checklist, ul.arrow,ul.plus, ul.double-arrows { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif }
+	
+	/* Homepage  */
+	h1#main-logo { font:100 26px/1.3846em 'Kaushan Script',cursive }
+	#background-slider .caption-center p, #background-slider .caption-left p, #background-slider .caption-right p { font:300 18px/1.4211em 'Oswald','Helvetica Neue',Arial,sans-serif;text-transform:uppercase }
+	#background-slider .caption-center em, #background-slider .caption-left em, #background-slider .caption-right em { font:300 28px/1.4211em 'Oswald','Helvetica Neue',Arial,sans-serif;text-transform:uppercase }
+	
+	/* Navigation menu  */
+	nav, nav a { font: 400 12px/1.5em 'Oswald','Helvetica Neue',Arial,sans-serif }
+	nav a#logo h1 { font:100 24px/1.5652em 'Kaushan Script',cursive }
+	nav .nav li a { text-transform:uppercase}
+	
+	/* Team section  */
+	ul.team-member li span { font-size:11px;font-weight:700 }
+	
+	/* Portfolio section  */
+	ul.portfolio-filters { font:300 12px/1.5em 'PT Sans Caption','Helvetica Neue',Arial,sans-serif;text-transform:uppercase }
+	.portfolio .portfolio-detail span { font-size:11px;font-style:italic;text-transform:capitalize }
+	
+	/* Blog section  */
+	article.post section.meta .date { font-size:11px }
+	article.post .meta a { font-family:'Oswald','Helvetica Neue',Arial,sans-serif;font-size:13px }
+	.full-post .post-content .meta { font-size:11px;font-weight:700 }
+	#load-post a { font:300 32px/1.125em 'Oswald','Helvetica Neue',Arial,sans-serif;text-shadow:1px -1px 0 #000;text-transform:uppercase }
+	
+	/* Contact section  */
+	.office-box p, .office-box em, label, input[type=email], input[type=text], textarea, #address span.error { font-size:12px;font-weight:300 }
+	.btn { font-size:12px }
+	#address #message-box p { font-size:11px;font-weight:700 }
+	#address span.error { font-weight:700 }
+
+	/* Footer section  */
+	footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 { font-weight:700;text-shadow:1px -1px 0 #000;text-transform:uppercase}
+	footer .tweet_list .tweet_text { font-size:22px;font-weight:700;line-height:1.6364em }
+	ul.social_icons li a span{ font-size:11px }
+	
+	/* Fancybox  */
+	.fancybox-error { font:14px/20px 'Helvetica Neue',Helvetica,Arial,sans-serif }
+	.fancybox-title { font:300 14px 'Open Sans Condensed','Helvetica Neue',Arial,sans-serif;text-transform:uppercase }
+
+/* 3 Common classes
+==================================================
+==================================================
+================================================== */
+
+	.align-right { text-align:right }
+	.align-center { text-align:center }
+	.container { position:relative!important }
+	.last { margin-right:0 !important }
+	
+	.heading {
+		margin-bottom:20px;
+		padding:30px 0;
+		text-align:center;
+		text-transform:uppercase
+	}
+	
+	.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6{ color:#f9f9f9;text-shadow:1px -1px 2px #000 }
+	
+	.intro {
+		background:url(../images/divider.png) bottom left repeat-x;	
+		color:#bfbfbf;
+		margin: 5px 0 60px 30px;
+		padding:0 0 40px 0;
+		text-align:center
+	}
+	
+	.bold-style h1, .bold-style h2, .bold-style h3, .bold-style h4, .bold-style h5, .bold-style h6 { 
+		color:#444!important;
+		font-weight:700;
+		text-shadow:1px -1px 0 #000;
+		text-transform:uppercase
+	}
+	
+	.bold-style .team-heading h1, .bold-style .team-heading h2, .bold-style .team-heading h3, .bold-style .team-heading h4, .bold-style .team-heading h5, .bold-style .team-heading h6 {
+		border-bottom:1px dotted #444;
+		border-top:1px dotted #444;
+		color:#444!important;
+		font-weight:700;
+		margin-top:60px;
+		padding:20px 0;
+		text-shadow:1px -1px 0 #000;
+		text-transform:uppercase
+	}
+
+/* 4 Buttons
+==================================================
+==================================================
+================================================== */
+
+	a.button {
+		border-radius:5px;
+		cursor:pointer;
+		float:left;
+		font-size:12px;
+		margin:20px 30px 20px 0;
+		padding:10px 20px
+	}
+	
+	a.button1 {
+		background:#D00355;
+		background:-ms-linear-gradient(top, #b10344, #D00355); 
+		background:-moz-linear-gradient(top, #b10344, #D00355); 
+		background:-o-linear-gradient(top, #b10344, #D00355);
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#D00355), to(#b10344)); 
+		background:-webkit-linear-gradient(top, #b10344, #D00355); 
+		border:1px solid #B0276F;
+		color:#FFF;
+	}
+	
+	a:hover.button1 {
+		background:#b10344;
+		background:-ms-linear-gradient(top, #D00355, #b10344); 
+		background:-moz-linear-gradient(top, #D00355, #b10344); 
+		background:-o-linear-gradient(top, #D00355, #b10344);
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#b10344), to(#D00355)); 
+		background:-webkit-linear-gradient(top, #D00355, #b10344); 
+	}
+
+	a.button2 {
+		background:#181818;
+		background:-ms-linear-gradient(top, #181818, #101010); 
+		background:-moz-linear-gradient(top, #181818, #101010); 
+		background:-o-linear-gradient(top, #181818, #101010);
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#101010), to(#181818)); 
+		background:-webkit-linear-gradient(top, #181818, #101010); 
+		border:1px solid #101010;
+		color:#cfcfcf;
+	}
+
+	a:hover.button2 {
+		background:#101010;
+		background:-ms-linear-gradient(top, #101010, #181818); 
+		background:-moz-linear-gradient(top, #101010, #181818); 
+		background:-o-linear-gradient(top, #101010, #181818);
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#181818), to(#101010)); 
+		background:-webkit-linear-gradient(top, #101010, #181818); 
+	}
+
+	a.button3 {
+		background:#cfcfcf;
+		background:-ms-linear-gradient(top, #cfcfcf, #fff); 
+		background:-moz-linear-gradient(top, #cfcfcf, #fff); 
+		background:-o-linear-gradient(top, #cfcfcf, #fff);
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#cfcfcf)); 
+		background:-webkit-linear-gradient(top, #cfcfcf, #fff); 
+		border:1px solid #181818;
+		color:#181818;
+	}
+
+	a:hover.button3 {
+		background:#fff;
+		background:-ms-linear-gradient(top, #fff, #cfcfcf); 
+		background:-moz-linear-gradient(top, #fff, #cfcfcf); 
+		background:-o-linear-gradient(top, #fff, #cfcfcf);
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#cfcfcf), to(#fff)); 
+		background:-webkit-linear-gradient(top, #fff, #cfcfcf); 
+	}
+
+/* 5 Lists
+==================================================
+==================================================
+================================================== */
+
+	ul.checklist, ul.arrow, ul.plus, ul.double-arrows { margin:30px 0 0;text-align:left }
+	ul.checklist li, ul.arrow li, ul.plus li, ul.double-arrows li { border-bottom:1px dotted #444;list-style:none;padding:10px 0 10px 30px }
+	ul.checklist li { background:url(../images/icons/list-check.png) 0 17px no-repeat }
+	ul.arrow li { background:url(../images/icons/list-arrow.png) 0 17px no-repeat }
+	ul.plus li { background:url(../images/icons/list-plus.png) 0 17px no-repeat }
+	ul.double-arrows li { background:url(../images/icons/list-double-arrows.png) 0 17px no-repeat }
